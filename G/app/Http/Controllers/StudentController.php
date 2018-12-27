@@ -17,7 +17,8 @@ class StudentController extends Controller
     public function index()
     {
        $student = Student::all();
-       return view('AdminDashboard.student.index',compact('student'));
+       $bool = 'index';
+       return view('AdminDashboard.student.index',compact('student','bool'));
     }
 
     /**
@@ -27,7 +28,9 @@ class StudentController extends Controller
      */
     public function create()
     {
-        //
+         $student = Student::all();
+         $bool = 'create';
+        return view('AdminDashboard.student.create',compact('student','bool'));
     }
 
     /**
@@ -76,7 +79,7 @@ class StudentController extends Controller
      */
     public function show(Student $student)
     {
-        //
+    //
     }
 
     /**
@@ -87,8 +90,9 @@ class StudentController extends Controller
      */
     public function edit(Student $student)
     {
+      $bool = 'edit';
         $student = Student::find($student);
-        return view('AdminDashboard.student.edit' , compact('student'));
+        return view('AdminDashboard.student.edit' , compact('student','bool'));
     }
 
     /**

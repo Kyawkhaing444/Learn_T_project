@@ -80,23 +80,29 @@ position:absolute;
       </a>
 
       <div class="list-group list-group-flush">
-        <a href="dashboard" class="list-group-item active waves-effect">
-          <i class="fas fa-chart-pie mr-3"></i>Dashboard
-        </a>
-        <a href="student" class="list-group-item list-group-item-action waves-effect">
-          <i class="fas fa-user mr-3"></i>Student</a>
-        <a href="magazine" class="list-group-item list-group-item-action waves-effect">
-          <i class="fas fa-table mr-3"></i>Magazine</a>
-        <a href="q&a" class="list-group-item list-group-item-action waves-effect">
-          <i class="fas fa-map mr-3"></i>Q&A</a>
-        <a href="event" class="list-group-item list-group-item-action waves-effect">
-                <i class="far fa-calendar-alt mr-3"></i></i>Event</a>
-          <a href="group" class="list-group-item list-group-item-action waves-effect">
-                <i class="fas fa-star-of-david mr-3"></i>Group</a>
-        <a href="chat" class="list-group-item list-group-item-action waves-effect">
-                <i class="fas fa-comments mr-3"></i>Chat</a>
-        <a href="admin" class="list-group-item list-group-item-action waves-effect">
-                <i class="fas fa-smile mr-3"></i></i>Admin</a>
+          <a href="dashboard" class="list-group-item active waves-effect">
+            <i class="fas fa-chart-pie mr-3"></i>Dashboard
+          </a>
+          <a href="student" class="list-group-item list-group-item-action waves-effect">
+            <i class="fas fa-user mr-3"></i>Student</a>
+          <a href="magazine" class="list-group-item list-group-item-action waves-effect">
+            <i class="fas fa-table mr-3"></i>Magazine</a>
+          <a href="q&a" class="list-group-item list-group-item-action waves-effect">
+            <i class="fas fa-map mr-3"></i>Q&A</a>
+          <a href="event" class="list-group-item list-group-item-action waves-effect">
+                  <i class="far fa-calendar-alt mr-3"></i></i>Event</a>
+            <a href="group" class="list-group-item list-group-item-action waves-effect">
+                  <i class="fas fa-star-of-david mr-3"></i>Group</a>
+          <a href="chat" class="list-group-item list-group-item-action waves-effect">
+                  <i class="fas fa-comments mr-3"></i>Chat</a>
+          <a href="admin" class="list-group-item list-group-item-action waves-effect">
+                  <i class="fas fa-smile mr-3"></i></i>Admin</a>
+
+
+
+
+
+
       </div>
 
     </div>
@@ -149,6 +155,7 @@ position:absolute;
 
   </script>
   <script src="{{asset('js/libs.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 
 </html>
